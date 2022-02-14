@@ -1,0 +1,7 @@
+:2015
+
+reverse_proxy /accounts/*/friends localhost:8082
+reverse_proxy /friendships localhost:8082
+
+reverse_proxy /accounts/* localhost:8081
+reverse_proxy /accounts localhost:8081
