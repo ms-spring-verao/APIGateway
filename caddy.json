@@ -1,0 +1,16 @@
+{
+  "apps": {
+    "http": {
+      "servers": {
+        "srv0": {
+          "@id": "apigateway",
+          "listen": [
+            ":2015"
+          ],
+          "routes": [
+          ]
+        }
+      }
+    }
+  }
+}
